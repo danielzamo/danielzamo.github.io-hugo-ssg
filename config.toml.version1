@@ -1,0 +1,45 @@
+baseURL = 'http://danielzamo.github.io/'
+languageCode = 'en-us'
+title = 'Site'
+theme = "hugo-theme-relearn"
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
+
+
+
+[params]
+  alwaysopen = true
+  editURL = ""
+  author = "dzamo"
+  description = ""
+#  showVisitedLinks = false
+#  disableSearch = false
+#  disableSearchHiddenPages = false
+#  disableSeoHiddenPages = false
+#  disableTagHiddenPages = false
+#  disableAssetsBusting = false
+#  disableGeneratorVersion = false
+#  disableInlineCopyToClipBoard = false
+#  disableShortcutsTitle = false
+  disableLandingPageButton = true
+#  disableLanguageSwitchingButton = false
+#  disableBreadcrumb = true
+#  disableToc = false
+#  disableMathJax = false
+#  customMathJaxURL = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+#  mathJaxInitialize = "{}"
+#  disableMermaid = false
+#  customMermaidURL = "https://unpkg.com/mermaid/dist/mermaid.min.js"
+#  mermaidInitialize = "{ \"theme\": \"default\" }"
+#  disableOpenapi = false
+#  customOpenapiURL = "https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"
+#  disableNextPrev = true
+#  ordersectionsby = "weight"
+#  themeVariant = "auto"
+#  breadcrumbSeparator = "|"
+#  titleSeparator = "-"
+#  collapsibleMenu = false
+#  additionalContentLanguage = [ "en" ]
+#  disableExplicitIndexURLs = false
+#  externalLinkTarget = "_blank"
+#
