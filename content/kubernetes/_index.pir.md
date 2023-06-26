@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Kubernetes"
-weight = 9
+title = "K8s"
+weight = 1
 +++
 {{< piratify >}}
