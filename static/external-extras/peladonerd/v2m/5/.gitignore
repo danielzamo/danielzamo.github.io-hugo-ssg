@@ -1,4 +1,0 @@
-id_rsa.pub
-gitlab/
-.terraform/
-terraform.tfstate.backup
