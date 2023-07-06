@@ -9,14 +9,16 @@ description = "Ubuntu server LTS, host anfitrión virtualización KVM"
 
 ## Especificación inicial
 
-- 1 x bridge
-- 1 x ethernet
-
-_IP_
-
-| IP | gateway | network | DNS |
-|:--               |:--              |:--                |:--     |
-| `192.168.123.35` | `192.168.123.1` | `192.168.123.0/24`| `192.168.123.1,8.8.8.8,1.1.1.1` |
+- 1 x bridge: `br0` 
+- 1 x ethernet: `enp1s0`
+- Configuración IP:
+  
+  | Especificación | asignación (fija) |
+  |--:               |:-- |
+  |_IP_| `192.168.123.35`|
+  |_gateway_| `192.168.123.1`|
+  |_red_| `192.168.123.0/24`|
+  |_DNS1-3_| `192.168.123.1,8.8.8.8,1.1.1.1`|
 
 ## Actualización sistema, instalando paquetes (opcionales)
 

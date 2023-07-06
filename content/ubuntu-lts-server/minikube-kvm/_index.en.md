@@ -1,5 +1,5 @@
 +++
-tags = ["kubernetes","projects","KVM","UbuntuLTS","minikube","container","virtualization"]
+tags = ["kubernetes","KVM","Ubuntu LTS","minikube","container","virtualization"]
 title = "Minikube (driver kvm)"
 weight = 21
 description = "Ubuntu server LTS, cluster k8s minikube (driver kvm)"
@@ -9,9 +9,9 @@ description = "Ubuntu server LTS, cluster k8s minikube (driver kvm)"
 
 ## Tecnologías utilizadas
 
-- minikube
-- KVM
-- Ubuntu LTS 22.04..
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+- [KVM](https://www.linux-kvm.org/page/Main_Page)
+- [Ubuntu LTS 22.04..](https://ubuntu.com/)
 
 ## Especificación inicial
 
@@ -19,13 +19,7 @@ description = "Ubuntu server LTS, cluster k8s minikube (driver kvm)"
 
 ### Dependecias cumplida
 
-En este depliegue se implementa un cluster minikube sobre un simple host. El driver usado es _kvm_. Se da por supuesto que se ha instalado el host anfitrión KVM. Si necesita ayuda puede consultar [esta referencia](https://danielzamo.github.io/ubuntu-lts-server/kvm/index.html).
-
-1 
-{{< ref "/ubuntu-lts-server/kvm" >}}
-
-2
-[About]({{< ref "/ubuntu-lts-server/kvm" >}} "About Us")
+En este depliegue se implementa un cluster minikube sobre un simple host. El driver usado es _kvm_. Se da por supuesto que se ha instalado el host anfitrión KVM. Si necesita ayuda puede consultar [instalar anfitrión KVM]({{< ref "/ubuntu-lts-server/kvm" >}} "Anfitrión KVM") en Ubuntu LTS, en este mismo sitio.
 
 ## Actualización sistema, instalando paquetes (opcionales)
 
