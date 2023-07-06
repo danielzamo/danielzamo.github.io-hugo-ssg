@@ -73,7 +73,8 @@ theme = "hugo-theme-relearn"
 #  collapsibleMenu = true
 #  additionalContentLanguage = [ "en" ]
 #  disableExplicitIndexURLs = false
-  externalLinkTarget = "_blank"
+#  externalLinkTarget = "_blank"
+#  relativeURLs = true
 ############## Copiados desde examplesite
 #  editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
   description = "Documentation theme based Hugo Relearn Theme"
